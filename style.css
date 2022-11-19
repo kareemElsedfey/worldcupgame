@@ -1,0 +1,151 @@
+body{
+    width: 100%;
+   
+   text-decoration: none;
+   text-transform: capitalize;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    width: 100%;
+    float: left;
+    margin-bottom: 120px;
+}
+.sidenav{
+    width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 150px;
+}
+.sidenav a{
+    padding: 30px 30px 30px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: white;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main{
+    transition: margin-left 0.5s;
+    padding: 16px;
+    
+}
+.nav-bar{
+    float: left;
+   text-transform: capitalize;
+    
+   
+    padding: 10px;
+}
+.bar-logo{
+    float: left;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+.bar-logo img{
+    margin: auto;
+  
+}
+.list{
+    float: left;
+    color: brown;
+    width: 30%;
+    font-size: 52px;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    cursor: pointer;
+   
+}
+#rever{
+    display: none;
+}
+.play-now{
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.play-content{
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    color: brown;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    text-align: center;
+}
+.levels{
+    display: inline-block;
+    margin: auto;
+    display: none;
+}
+option{
+   padding: 10px;
+   cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+}
+.clubs{
+    margin-left: 70px;
+}
+#showTrue ,#showTrue4 ,#showTrue2 ,#showTrue3,#showTrue4 ,#showTrue5,#showTrue6,#showTrue7,#showTrue8,#showTrue9 
+,#showTrue10 ,#showTrue11,#showTrue12,#showTrue13,#showTrue14,
+#showTrue15{
+    margin: auto;
+    text-align: center;
+    display: none   ;
+   padding-bottom: 170px;
+    
+}
+#showTrue16,#showTrue17,#showTrue18,#showTrue19,#showTrue20{
+    margin: auto;
+    text-align: center;
+    display: none   ;
+    padding-bottom: 170px;
+}
+#showTrueDiall{
+    display: none;
+}
+.level-content{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+.level-1{
+    display: none;
+}
+
+#next{
+    display: none;
+}
+#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#tweleve,#threetee,#fourtee,#fiftee,#sixtee,#seventee,#eightee,#nintee,#twente{
+   display: none;
+   border: 2px solid brown;
+   width: 350px;
+   
+}
+#one{
+    border: 2px solid brown;
+    
+}
